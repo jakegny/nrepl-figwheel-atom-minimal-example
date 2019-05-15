@@ -1,0 +1,19 @@
+{:deps {org.clojure/clojurescript {:mvn/version "1.10.516"}
+        cljsjs/react-dom {:mvn/version "16.2.0-3"}
+        ;; Figwheel Main
+        com.bhauman/figwheel-main {:mvn/version "0.2.0"}}
+        ; com.bhauman/rebel-readline-cljs {:mvn/version "0.1.4"}}}
+
+ :aliases
+ {:nrepl
+  {:extra-deps
+   {cider/cider-nrepl {:mvn/version "0.21.1"}
+    cider/piggieback {:mvn/version "0.4.0"}
+    clojure-complete {:mvn/version "0.2.5"}
+    com.bhauman/figwheel-main {:mvn/version "0.2.0"}
+    com.bhauman/rebel-readline {:mvn/version "0.1.4"}
+    com.bhauman/rebel-readline-cljs {:mvn/version "0.1.4"}
+    nrepl/nrepl {:mvn/version "0.6.0"}
+    proto-repl {:mvn/version "0.3.1"}}
+
+   :main-opts ["-m" "hello-world.main"]}}}
